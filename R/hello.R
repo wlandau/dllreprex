@@ -3,5 +3,5 @@ NULL
 
 #' @export
 hello <- function() {
-  .Call("c_hello")
+  .Call(c_hello)
 }
