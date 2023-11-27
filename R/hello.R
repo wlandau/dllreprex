@@ -3,5 +3,5 @@ NULL
 
 #' @export
 hello <- function() {
-  .Call(.NAME = c_hello, .PACKAGE = "dllreprex")
+  .Call(c_hello, PACKAGE = "dllreprex")
 }
